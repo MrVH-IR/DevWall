@@ -34,10 +34,10 @@
 
                     <img src="#" alt="User Profile" onclick="toggleUserMenu()" />
                     <div class="user-menu">
-                        <a href="../profile.php">My Profile</a>
-                        <a href="../my-posts.php">My Posts</a>
-                        <a href="../my-comments.php">My Comments</a>
-                        <a href="../my-favorites.php">My Favorites</a>
+                        <a href="./profile.php">My Profile</a>
+                        <a href="./my-posts.php">My Posts</a>
+                        <a href="./my-comments.php">My Comments</a>
+                        <a href="./my-favorites.php">My Favorites</a>
                         <a href="./logout.php">Logout</a>
                     </div>
                 </div>

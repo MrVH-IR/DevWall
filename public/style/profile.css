@@ -1,0 +1,144 @@
+@import url("https://v1.fontapi.ir/css/Vazir");
+@import url("https://v1.fontapi.ir/css/Sahel");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500");
+#darkModeImage {
+    width: 30px;
+    height: 30px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.site-info {
+    display: flex;
+    align-items: center;
+}
+
+.site-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.welcome {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.time {
+    margin-right: 20px;
+}
+
+.dark-mode {
+    margin-left: 20px;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #0056b3;
+    padding: 10px 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #004494;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.languages img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.user-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.user-posts .post {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(33% - 20px);
+}
+
+.user-posts .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.user-posts .post h3 {
+    margin: 10px 0;
+}
+
+.user-posts .post p {
+    color: #666666;
+}

@@ -37,3 +37,14 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 updateTime();
+
+document.querySelectorAll('.company-posts .form button, .developer-posts .form button').forEach(function(button) {
+    button.addEventListener('click', function() {
+        var postDescription = this.nextElementSibling;
+        if (postDescription.style.display === 'block') {
+            postDescription.style.display = 'none';
+        } else {
+            postDescription.style.display = 'block';
+        }
+    });
+});
