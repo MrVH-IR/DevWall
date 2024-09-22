@@ -122,6 +122,26 @@ header("Location: ../../public/index.php");
 //     echo "خطا در ایجاد جدول user_sessions: " . $conn->error;
 // }
 
-// بستن اتصال
+// ایجاد جدول posts
+// $sql = "CREATE TABLE IF NOT EXISTS posts (
+//     id INT(11) AUTO_INCREMENT PRIMARY KEY,
+//     user_id INT(11) NOT NULL,
+//     title VARCHAR(255) NOT NULL,
+//     content TEXT NOT NULL,
+//     phone VARCHAR(15) NOT NULL,
+//     email VARCHAR(100) NOT NULL,
+//     image VARCHAR(255),
+//     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+//     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+//     FOREIGN KEY (user_id) REFERENCES users(id)
+// )";
+// if ($conn->query($sql) === TRUE) {
+//     echo "جدول posts با موفقیت ایجاد شد";
+// } else {
+//     echo "خطا در ایجاد جدول posts: " . $conn->error;
+// }
+
+ /* بستن اتصال */
+
 // $conn->close();
 ?>
