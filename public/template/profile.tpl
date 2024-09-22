@@ -37,7 +37,7 @@
                 <a href="./panel.php">Panel</a>
                 <a href="./comments.php">Comments</a>
                 <a href="./articles.php">Articles</a>
-                <a href="./posts.php">Posts</a>
+                <a href="./posts/posts.php">Posts</a>
                 <a href="./messages.php">Messages</a>
                 <a href="./logout.php">Exit</a>
             </div>
@@ -51,6 +51,7 @@
             <img src="./style/lan/HTML.ico" alt="Language 3">
             <img src="./style/lan/Php.ico" alt="Language 4">
             <img src="./style/lan/Python.ico" alt="Language 5">
+            <img src="./style/lan/MySQL.ico" alt="Language 6">
             <!-- Add more languages as needed -->
         </div>
     </section>
