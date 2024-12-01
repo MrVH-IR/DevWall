@@ -14,6 +14,6 @@ Frontend: JavaScript, HTML, CSS
 Database: MySQL
 How to Run:
 1.Clone the repository:
-git clone https://github.com/yourusername/devwall.git
+git clone https://github.com/MrVH-IR/devwall.git
 2. Import the database and update the database configuration in config.php.
 3. Run the website on your local server.
